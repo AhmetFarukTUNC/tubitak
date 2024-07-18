@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_userPanelAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getUsersFromUserPanel",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "userPanelAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Desktop/solidity/tubitak/login/contracts/signup.sol": "NewContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Desktop/solidity/tubitak/login/contracts/signup.sol": {
+			"keccak256": "0x81bd5c83c32d638e0e80abc8960ad6567eb8c571a6d49d7a1cd7944e32c2464a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2fdeeb26f65ad62e28e46bff6fd110c2a52fb3e3af397263f61cfda0309c74e0",
+				"dweb:/ipfs/QmRWM65Bs6doWz3huSKQU9XxPPs6RPsi4YGjmP5MJpJH7d"
+			]
+		}
+	},
+	"version": 1
+}
